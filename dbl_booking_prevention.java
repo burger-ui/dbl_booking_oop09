@@ -57,7 +57,7 @@ public class dbl_booking_prevention {
         String time = scanner.nextLine();
 
        
-        // check for a booking at the same date and time
+        
         for (int i = 0; i < count; i++) {
             if (dates[i].equalsIgnoreCase(date) && times[i].equalsIgnoreCase(time)) {
                 System.out.println("Booking already exists for that date and time. Please choose another slot.");
